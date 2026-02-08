@@ -1,0 +1,9 @@
+{
+  "accentColor": "#7c3aed",
+  "theme": "obsidian",
+  "cssTheme": "",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "fte-status-colors"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox",
+  "attachmentFolderPath": "Inbox",
+  "showLineNumber": true,
+  "spellcheck": true,
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "showFrontmatter": false,
+  "foldHeading": true,
+  "foldIndent": true
+}

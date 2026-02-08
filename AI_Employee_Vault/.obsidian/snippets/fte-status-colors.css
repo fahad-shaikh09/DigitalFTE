@@ -1,0 +1,119 @@
+/* Digital FTE Status Colors */
+
+/* Priority badges in text */
+strong:has(+ em:contains("HIGH")),
+strong:contains("HIGH") {
+  color: #ef4444 !important;
+  background: #fef2f2;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+strong:contains("NORMAL") {
+  color: #22c55e !important;
+  background: #f0fdf4;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+strong:contains("MEDIUM") {
+  color: #f59e0b !important;
+  background: #fffbeb;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Status indicators */
+.status-pending {
+  color: #f59e0b;
+}
+
+.status-completed {
+  color: #22c55e;
+}
+
+.status-error {
+  color: #ef4444;
+}
+
+/* Folder colors in file explorer */
+.nav-folder-title[data-path="Inbox"] .nav-folder-title-content::before {
+  content: "📥 ";
+}
+
+.nav-folder-title[data-path="Needs_Action"] .nav-folder-title-content::before {
+  content: "⚡ ";
+}
+
+.nav-folder-title[data-path="Done"] .nav-folder-title-content::before {
+  content: "✅ ";
+}
+
+.nav-folder-title[data-path="Plans"] .nav-folder-title-content::before {
+  content: "📋 ";
+}
+
+.nav-folder-title[data-path="Logs"] .nav-folder-title-content::before {
+  content: "📝 ";
+}
+
+.nav-folder-title[data-path="Templates"] .nav-folder-title-content::before {
+  content: "📄 ";
+}
+
+/* Dashboard styling */
+.markdown-preview-view h1:first-child {
+  border-bottom: 3px solid #7c3aed;
+  padding-bottom: 10px;
+}
+
+/* Callout boxes for alerts */
+.callout[data-callout="alert"] {
+  --callout-color: 239, 68, 68;
+  --callout-icon: alert-triangle;
+}
+
+.callout[data-callout="success"] {
+  --callout-color: 34, 197, 94;
+  --callout-icon: check-circle;
+}
+
+.callout[data-callout="pending"] {
+  --callout-color: 245, 158, 11;
+  --callout-icon: clock;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #7c3aed;
+  color: white;
+  padding: 8px 12px;
+}
+
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tr:hover {
+  background: #f9fafb;
+}
+
+/* Task checkbox styling */
+.task-list-item-checkbox:checked {
+  background: #22c55e;
+  border-color: #22c55e;
+}
+
+/* Frontmatter styling */
+.frontmatter-container {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+}

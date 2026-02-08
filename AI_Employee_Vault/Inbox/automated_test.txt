@@ -1,0 +1,1 @@
+This is an automated test file to verify the watcher and cron are working.
