@@ -1,0 +1,161 @@
+# ===========================================
+# SECURITY - NEVER COMMIT THESE
+# ===========================================
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Credential files
+credentials.json
+token.json
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Session files (WhatsApp, browser, etc.)
+*_session/
+session_data/
+playwright_session/
+
+# API keys and tokens
+secrets/
+.secrets/
+
+# ===========================================
+# PYTHON
+# ===========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# UV cache
+.uv/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===========================================
+# MACOS
+# ===========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# ===========================================
+# IDE / EDITORS
+# ===========================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ===========================================
+# OBSIDIAN
+# ===========================================
+
+# Obsidian workspace files (optional - you may want these)
+# .obsidian/workspace.json
+# .obsidian/workspace-mobile.json
+
+# ===========================================
+# VAULT DATA (Optional - depends on use case)
+# ===========================================
+
+# Uncomment these if you don't want to track vault contents:
+# AI_Employee_Vault/Inbox/*
+# AI_Employee_Vault/Needs_Action/*
+# AI_Employee_Vault/Done/*
+# AI_Employee_Vault/Logs/*
+
+# Keep the folder structure
+!AI_Employee_Vault/Inbox/.gitkeep
+!AI_Employee_Vault/Needs_Action/.gitkeep
+!AI_Employee_Vault/Done/.gitkeep
+!AI_Employee_Vault/Plans/.gitkeep
+!AI_Employee_Vault/Logs/.gitkeep
+
+# ===========================================
+# LOGS
+# ===========================================
+*.log
+logs/
+*.pid
+
+# ===========================================
+# MISC
+# ===========================================
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Lock files (keep package-lock.json if using npm)
+# package-lock.json
+
+# Node modules (if using MCP servers)
+node_modules/
